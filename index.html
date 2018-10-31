@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="as">
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 11 Trial Version - http://www.wysiwygwebbuilder.com">
+<script src="jscookmenu.min.js"></script>
+<link href="PAGINA_WEB.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.11.3.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $('#LayerMenu1 li').hover(function()
+   {
+      var top = $(this).find('.button').outerHeight();
+      $(this).find('.layer').css({'top': top});
+      $(this).find('.layer').stop().fadeTo('fast', 1).show();
+   }, function()
+   {
+      $(this).find('.layer').stop().fadeTo('fast', 0, function()
+      {
+         $(this).hide();
+      });
+   });
+   $('#LayerMenu1 li .layer').hide();
+});
+</script>
+</head>
+<body>
+<a href="http://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb11.png" alt="WYSIWYG Web Builder" style="position:absolute;left:441px;top:967px;border-width:0;z-index:250"></a>
+<div id="wb_LayerMenu1" style="position:absolute;left:45px;top:92px;width:449px;height:274px;visibility:hidden;z-index:1;">
+   <ul id="LayerMenu1">
+      <li>
+      <a href="#" class="button">Item 1<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:248px;height:248px">
+      </div>
+      </li>
+      <li>
+      <a href="#" class="button">Item 2<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:248px;height:248px">
+      </div>
+      </li>
+      <li>
+      <a href="#" class="button">Item 3<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:248px;height:248px">
+      </div>
+      </li>
+      <li>
+      <a href="#" class="button">Item 4<span class="arrow-down"></span></a>
+      <div class="layer" style="text-align:center;width:248px;height:248px">
+      </div>
+      </li>
+   </ul>
+</div>
+<div id="wb_Image1" style="position:absolute;left:65px;top:42px;width:1098px;height:625px;z-index:2;">
+<img src="images/img0001.png" id="Image1" alt=""></div>
+<div id="wb_Text1" style="position:absolute;left:392px;top:257px;width:414px;height:61px;text-align:center;z-index:3;">
+<span style="color:#F5F5F5;font-family:Georgia;font-size:53px;">GAME-LINE</span></div>
+<div id="wb_MenuBar1" style="position:absolute;left:407px;top:342px;width:423px;height:120px;z-index:1004;">
+<div id="MenuBar1">
+<ul style="display:none;">
+<li><span></span><span>DEPORTIVOS</span>
+<ul>
+<li><span></span><a href="./fifa17.html" target="_self">FIFA&nbsp;2017</a>
+</li>
+<li><span></span><a href="./fifa18.html" target="_self">FIFA&nbsp;2018</a>
+</li>
+<li><span></span><a href="./need_for_speed.html" target="_self">NEED&nbsp;FOR&nbsp;SPEED</a>
+</li>
+</ul>
+</li>
+<li><span></span><span>TERROR</span>
+<ul>
+<li><span></span><a href="./resident_evil_7.html" target="_self">RESIDENT&nbsp;EVIL&nbsp;7</a>
+</li>
+<li><span></span><a href="./slenderman.html" target="_self">SLENDERMAN&nbsp;</a>
+</li>
+</ul>
+</li>
+<li><span></span><span>ACCION</span>
+<ul>
+<li><span></span><a href="./GTA_San_Andreas.html" target="_self">GTA&nbsp;SAN&nbsp;ANDREAS</a>
+</li>
+<li><span></span><a href="./counter_strike.html" target="_self">COUNTER&nbsp;STRIKE</a>
+</li>
+</ul>
+</li>
+<li><span></span><span>ESTRATEGIA</span>
+<ul>
+<li><span></span><a href="./clash_of_clans_.html" target="_self">CLASH&nbsp;OF&nbsp;CLAN</a>
+</li>
+<li><span></span><a href="./clash_royale.html" target="_self">CLASH&nbsp;ROYALE</a>
+</li>
+<li><span></span><a href="./free_fire.html" target="_self">FREE&nbsp;FIRE</a>
+</li>
+</ul>
+</li>
+<li><span></span><span>AVENTURA</span>
+<ul>
+<li><span></span><a href="./minecraft.html" target="_self">MINECRAFT</a>
+</li>
+<li><span></span><a href="./mario_bross.html" target="_self">MARIO&nbsp;BROSS</a>
+</li>
+<li><span></span><a href="./zelda.html" target="_self">ZELDA</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<script>
+var cmMenuBar1 =
+{
+   mainFolderLeft: '',
+   mainFolderRight: '',
+   mainItemLeft: '',
+   mainItemRight: '',
+   folderLeft: '',
+   folderRight: '<div style="width:14px;height:16px" class="MenuBar1SpacerDiv" />',
+   itemLeft: '',
+   itemRight: '<div style="width:14px;height:16px" class="MenuBar1SpacerDiv" />',
+   mainSpacing: 0,
+   subSpacing: 0,
+   delay: 100,
+   offsetHMainAdjust: [0, 0],
+   offsetSubAdjust: [0, 0]
+};
+var cmMenuBar1HSplit = [_cmNoClick, '<td class="MenuBar1MenuSplitLeft"><div></div></td>' +
+                                       '<td class="MenuBar1MenuSplitText"><div></div></td>' +
+                                       '<td class="MenuBar1MenuSplitRight"><div></div></td>'];
+var cmMenuBar1MainVSplit = [_cmNoClick, '<div><table width="17" cellspacing="0"><tr><td class="MenuBar1HorizontalSplit">|</td></tr></table></div>'];
+var cmMenuBar1MainHSplit = [_cmNoClick, '<td colspan="3" class="MenuBar1MainSplitText"><div></div></td>'];
+cmDrawFromText('MenuBar1', 'hbr', cmMenuBar1, 'MenuBar1');
+</script>
+</div>
+</body>
+</html>
